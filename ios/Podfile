@@ -43,7 +43,10 @@ target 'socialcoinstudy' do
 
   use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
   use_frameworks! :linkage => ENV['USE_FRAMEWORKS'].to_sym if ENV['USE_FRAMEWORKS']
-
+  # vv내가 넣음
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
+  # ^^내가 넣음
   # Flags change depending on the env values.
   flags = get_default_flags()
 

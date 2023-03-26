@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "91341802522",
+    "project_id": "social-coin-c1453",
+    "storage_bucket": "social-coin-c1453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91341802522:android:2cefcb57358925b14f55a3",
+        "android_client_info": {
+          "package_name": "com.socialcoinstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91341802522-u26oosjb7ecdohjtujubogd87s7mmbc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialcoinstudy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "91341802522-o0h0ln705ikjdrsm3mqjcdnehi59oeqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALyR0egQzr57KP8xoQUgG3uf1EGyalwJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91341802522-o0h0ln705ikjdrsm3mqjcdnehi59oeqo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "91341802522-vgfpvpjbem50m4po2bi5dosimk6913m1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.name.socialcoinstudy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
